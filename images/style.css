@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(124, 205, 220);
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.section-padding {
+  padding: 20px 0;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #000000;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.badge-position {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+img {
+  border: 3px solid #0d6efd; 
+  border-radius: 8px;                      
+  max-width: 100%;          
+  height: auto;             
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(13,110,253,0.4);
+}
+ #contact{
+border: 3px solid #0d6efd; 
+}
